@@ -1,7 +1,7 @@
 
 import { exec } from 'node:child_process';
 
-const DELAY = 5_000;
+const DELAY = 10_000;
 
 const dev = exec('npm run dev');
 dev.stdout.pipe(process.stdout);
